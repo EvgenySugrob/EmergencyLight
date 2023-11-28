@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_TermalLight
+  m_Shader: {fileID: -6465566751694194690, guid: 9edc334d14b288f4f9622d9907c27e2c,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalFromTexture_aea8caae58a147bc8a81a361353fa3f6_Texture_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 184b177a7d9814743a4100f4ef915e89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_f7aa8b1e80a2468e9355c93afdad4c1a_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5bc14daa84ee491fa489691ac85e2997_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: bb84ecff1b5bae54385ea68e8f5f7bee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_1c9b51772dfd4e1f8c92c537c7edc661_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aa8d00aa49442104391ac9c2b8e68268, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float: 19.63
+    - _Steps: 50
+    m_Colors:
+    - _Blue: {r: 0, g: 0.14966917, b: 1, a: 0}
+    - _Red: {r: 1, g: 0.01728072, b: 0, a: 0}
+  m_BuildTextureStacks: []
